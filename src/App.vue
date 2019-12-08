@@ -3,17 +3,26 @@
     <img src="./assets/logo.png">
     <HelloWorld/> 
     <HiWorld/>
+    <Article/>
+    <Column/>
+    <Review/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
 import HiWorld from './components/HiWorld'
+import Article from './components/article'
+import Column from './components/column'
+import Review from './components/review'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    HiWorld
+    HiWorld,
+    Article,
+    Column,
+    Review
   }
 }
 </script>

@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   data () {
     return {
@@ -12,7 +13,7 @@ export default {
     }
   },
   mounted () {
-    this.$axios.get('http://192.168.100.134:8080/v1')
+    axios.get('http://192.168.100.134:8080/v1')
       .then(response => (this.info = response.data))
       .catch(function (error) { 
         console.log(error);

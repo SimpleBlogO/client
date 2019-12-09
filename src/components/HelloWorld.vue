@@ -1,11 +1,11 @@
 <template>
-  <div class="hello">
+  <div id="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
       <li>
         <a
-          href=""
+          href="/article"
           target="_blank"
         >
           Article
@@ -13,7 +13,7 @@
       </li>
       <li>
         <a
-          href=""
+          href="/column"
           target="_blank"
         >
           Column
@@ -21,7 +21,7 @@
       </li>
       <li>
         <a
-          href=""
+          href="/review"
           target="_blank"
         >
           Review
@@ -32,6 +32,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
   data () {

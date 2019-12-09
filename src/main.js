@@ -5,14 +5,14 @@
 import Article from './components/article'
 import Column from './components/column'
 import Review from './components/review'
-import HiWorld from './components/HiWorld'
+import Root from './components/root'
 // 2. 定义路由
 // 每个路由应该映射一个组件。 其中"component" 可以是
 // 通过 Vue.extend() 创建的组件构造器，
 // 或者，只是一个组件配置对象。
 // 我们晚点再讨论嵌套路由。
 const routes = [
-  { path:'/hwd',component:HiWorld},
+  { path:'/root',component:Root},
   { path: '/article', component: Article },
   { path: '/column', component: Column },
   {path:'/review',component:Review}
